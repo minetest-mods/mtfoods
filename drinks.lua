@@ -1,12 +1,12 @@
 local ing = mtfoods.ingredients
 
 -- Flute Glass --
-minetest.register_craftitem("mtfoods:glass_flute", {
+core.register_craftitem("mtfoods:glass_flute", {
 	description = "Glass Flute",
 	inventory_image = "mtfoods_flute.png",
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "mtfoods:glass_flute",
 	recipe = {
 		{'default:glass', '', 'default:glass'},
@@ -18,13 +18,13 @@ minetest.register_craft({
 -- The Juices --
 
 --orange--
-minetest.register_craftitem("mtfoods:orange_juice", {
+core.register_craftitem("mtfoods:orange_juice", {
 	description = "Orange Juice",
 	inventory_image = "mtfoods_orange_juice.png",
-	on_use = minetest.item_eat(0.5),
+	on_use = core.item_eat(0.5),
 })
 
-minetest.register_craft({
+core.register_craft({
 	type = "shapeless",
 	output = "mtfoods:orange_juice",
 	recipe = {'mtfoods:glass_flute', ing.orange}
@@ -32,13 +32,13 @@ minetest.register_craft({
 
 --apple--
 
-minetest.register_craftitem("mtfoods:apple_juice", {
+core.register_craftitem("mtfoods:apple_juice", {
 	description = "Apple Juice",
 	inventory_image = "mtfoods_apple_juice.png",
-	on_use = minetest.item_eat(0.5),
+	on_use = core.item_eat(0.5),
 })
 
-minetest.register_craft({
+core.register_craft({
 	type = "shapeless",
 	output = "mtfoods:apple_juice",
 	recipe = {'mtfoods:glass_flute', ing.apple}
@@ -46,21 +46,21 @@ minetest.register_craft({
 
 --Apple Cider--
 
-minetest.register_node("mtfoods:apple_cider", {
+core.register_node("mtfoods:apple_cider", {
 	drawtype = 'plantlike',
 	paramtype = 'light',
 	tiles = {"mtfoods_apple_cider.png"},
 	description = "Apple Cider in Bottle",
 	inventory_image = "mtfoods_apple_cider.png",
 	wield_image = "mtfoods_apple_cider.png",
-	on_use = minetest.item_eat(1),
+	on_use = core.item_eat(1),
 	groups = {oddly_breakable_by_hand=4, cracky=3},
 	on_rightclick = function(pos, node, player, itemstack)
 		drop = "mtfoods:apple_juice 3"
 	end
 })
 
-minetest.register_craft({
+core.register_craft({
     output = "mtfoods:apple_cider",
     recipe = {
         {'', 'default:steel_ingot', ''},
@@ -69,7 +69,7 @@ minetest.register_craft({
     }
 })
 
-minetest.register_node("mtfoods:cider_rack", {
+core.register_node("mtfoods:cider_rack", {
 	drawtype = 'normal',
 	paramtype = 'light',
 	paramtype2 = "facedir",
@@ -81,7 +81,7 @@ minetest.register_node("mtfoods:cider_rack", {
 	drop = "mtfoods:apple_cider 2",
 })
 
-minetest.register_craft({
+core.register_craft({
     output = "mtfoods:cider_rack",
     recipe = {
         {'default:wood','mtfoods:apple_cider','default:wood'},
