@@ -1,0 +1,134 @@
+# Italian translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-08 17:22-0500\n"
+"PO-Revision-Date: 2026-06-08 17:22-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: desserts.lua:6
+msgid "Dandelion Milk"
+msgstr "Latte di Tarassaco"
+
+#: desserts.lua:12
+msgid "Sugar"
+msgstr "Zucchero"
+
+#: desserts.lua:18
+msgid "Short Bread"
+msgstr "Frollino"
+
+#: desserts.lua:24
+msgid "Pie Crust"
+msgstr "Pasta per Torte"
+
+#: desserts.lua:30
+msgid "Cream"
+msgstr "Panna"
+
+#: desserts.lua:36
+msgid "Chocolate Bits"
+msgstr "Pezzetti di Cioccolato"
+
+#: desserts.lua:42
+msgid "Cup-Cake"
+msgstr "Tortino"
+
+#: desserts.lua:48
+msgid "Strawberry Short-Cake"
+msgstr "Tortino alla Fragola"
+
+#: desserts.lua:251
+msgid "Cake"
+msgstr "Torta"
+
+#: desserts.lua:266
+msgid "Chocolate Cake"
+msgstr "Torta al Cioccolato"
+
+#: desserts.lua:282
+msgid "Carrot Cake"
+msgstr "Torta di Carote"
+
+#: desserts.lua:299
+msgid "Apple Pie"
+msgstr "Torta di Mele"
+
+#: desserts.lua:316
+msgid "Rhubarb Pie"
+msgstr "Torta di Rabarbaro"
+
+#: desserts.lua:333
+msgid "Banana Pie"
+msgstr "Torta di Banana"
+
+#: desserts.lua:350
+msgid "Pumpkin Pie"
+msgstr "Torta di Zucca"
+
+#: desserts.lua:367
+msgid "Boston Cream Pie"
+msgstr "Torta Boston Cream"
+
+#: desserts.lua:385
+msgid "Cookies"
+msgstr "Biscotti"
+
+#: desserts.lua:402
+msgid "Chocolate Bars"
+msgstr "Barrette di Cioccolato"
+
+#: desserts.lua:418
+msgid "Cupcakes"
+msgstr "Tortini"
+
+#: drinks.lua:7
+msgid "Glass Flute"
+msgstr "Flauto di Vetro"
+
+#: drinks.lua:24
+msgid "Orange Juice"
+msgstr "Succo d'Arancia"
+
+#: drinks.lua:38
+msgid "Apple Juice"
+msgstr "Succo di Mela"
+
+#: drinks.lua:55
+msgid "Apple Cider in Bottle"
+msgstr "Sidro di Mela in Bottiglia"
+
+#: drinks.lua:79
+msgid "A Cider Rack"
+msgstr "Rastrelliera per Sidro"
+
+#: foods.lua:9
+msgid "MLT (Mutton, Lettuce, Tomato)"
+msgstr "MLT (Montone, Lattuga, Pomodoro)"
+
+#: foods.lua:27
+msgid "Sliced Potato"
+msgstr "Patata Affettata"
+
+#: foods.lua:41
+msgid "Potato Chips"
+msgstr "Patatine Fritte"
+
+#: foods.lua:56
+msgid "Medicine"
+msgstr "Medicina"
+
+#: foods.lua:73
+msgid "Casserole"
+msgstr "Casseruola"

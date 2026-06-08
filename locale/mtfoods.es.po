@@ -1,0 +1,134 @@
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-08 17:22-0500\n"
+"PO-Revision-Date: 2026-06-08 17:22-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: desserts.lua:6
+msgid "Dandelion Milk"
+msgstr "Leche de Diente de León"
+
+#: desserts.lua:12
+msgid "Sugar"
+msgstr "Azúcar"
+
+#: desserts.lua:18
+msgid "Short Bread"
+msgstr "Galleta de Mantequilla"
+
+#: desserts.lua:24
+msgid "Pie Crust"
+msgstr "Masa de Tarta"
+
+#: desserts.lua:30
+msgid "Cream"
+msgstr "Crema"
+
+#: desserts.lua:36
+msgid "Chocolate Bits"
+msgstr "Tropezones de Chocolate"
+
+#: desserts.lua:42
+msgid "Cup-Cake"
+msgstr "Magdalena"
+
+#: desserts.lua:48
+msgid "Strawberry Short-Cake"
+msgstr "Tarta de Fresa"
+
+#: desserts.lua:251
+msgid "Cake"
+msgstr "Pastel"
+
+#: desserts.lua:266
+msgid "Chocolate Cake"
+msgstr "Pastel de Chocolate"
+
+#: desserts.lua:282
+msgid "Carrot Cake"
+msgstr "Pastel de Zanahoria"
+
+#: desserts.lua:299
+msgid "Apple Pie"
+msgstr "Tarta de Manzana"
+
+#: desserts.lua:316
+msgid "Rhubarb Pie"
+msgstr "Tarta de Ruibarbo"
+
+#: desserts.lua:333
+msgid "Banana Pie"
+msgstr "Tarta de Plátano"
+
+#: desserts.lua:350
+msgid "Pumpkin Pie"
+msgstr "Tarta de Calabaza"
+
+#: desserts.lua:367
+msgid "Boston Cream Pie"
+msgstr "Tarta Boston Cream"
+
+#: desserts.lua:385
+msgid "Cookies"
+msgstr "Galletas"
+
+#: desserts.lua:402
+msgid "Chocolate Bars"
+msgstr "Barras de Chocolate"
+
+#: desserts.lua:418
+msgid "Cupcakes"
+msgstr "Magdalenas"
+
+#: drinks.lua:7
+msgid "Glass Flute"
+msgstr "Copa Flauta"
+
+#: drinks.lua:24
+msgid "Orange Juice"
+msgstr "Zumo de Naranja"
+
+#: drinks.lua:38
+msgid "Apple Juice"
+msgstr "Zumo de Manzana"
+
+#: drinks.lua:55
+msgid "Apple Cider in Bottle"
+msgstr "Sidra de Manzana en Botella"
+
+#: drinks.lua:79
+msgid "A Cider Rack"
+msgstr "Estante para Sidra"
+
+#: foods.lua:9
+msgid "MLT (Mutton, Lettuce, Tomato)"
+msgstr "MLT (Carne de Cordero, Lechuga, Tomate)"
+
+#: foods.lua:27
+msgid "Sliced Potato"
+msgstr "Papa Rebanada"
+
+#: foods.lua:41
+msgid "Potato Chips"
+msgstr "Papas Fritas"
+
+#: foods.lua:56
+msgid "Medicine"
+msgstr "Medicina"
+
+#: foods.lua:73
+msgid "Casserole"
+msgstr "Cacerola"

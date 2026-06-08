@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-08 17:22-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: desserts.lua:6
+msgid "Dandelion Milk"
+msgstr ""
+
+#: desserts.lua:12
+msgid "Sugar"
+msgstr ""
+
+#: desserts.lua:18
+msgid "Short Bread"
+msgstr ""
+
+#: desserts.lua:24
+msgid "Pie Crust"
+msgstr ""
+
+#: desserts.lua:30
+msgid "Cream"
+msgstr ""
+
+#: desserts.lua:36
+msgid "Chocolate Bits"
+msgstr ""
+
+#: desserts.lua:42
+msgid "Cup-Cake"
+msgstr ""
+
+#: desserts.lua:48
+msgid "Strawberry Short-Cake"
+msgstr ""
+
+#: desserts.lua:251
+msgid "Cake"
+msgstr ""
+
+#: desserts.lua:266
+msgid "Chocolate Cake"
+msgstr ""
+
+#: desserts.lua:282
+msgid "Carrot Cake"
+msgstr ""
+
+#: desserts.lua:299
+msgid "Apple Pie"
+msgstr ""
+
+#: desserts.lua:316
+msgid "Rhubarb Pie"
+msgstr ""
+
+#: desserts.lua:333
+msgid "Banana Pie"
+msgstr ""
+
+#: desserts.lua:350
+msgid "Pumpkin Pie"
+msgstr ""
+
+#: desserts.lua:367
+msgid "Boston Cream Pie"
+msgstr ""
+
+#: desserts.lua:385
+msgid "Cookies"
+msgstr ""
+
+#: desserts.lua:402
+msgid "Chocolate Bars"
+msgstr ""
+
+#: desserts.lua:418
+msgid "Cupcakes"
+msgstr ""
+
+#: drinks.lua:7
+msgid "Glass Flute"
+msgstr ""
+
+#: drinks.lua:24
+msgid "Orange Juice"
+msgstr ""
+
+#: drinks.lua:38
+msgid "Apple Juice"
+msgstr ""
+
+#: drinks.lua:55
+msgid "Apple Cider in Bottle"
+msgstr ""
+
+#: drinks.lua:79
+msgid "A Cider Rack"
+msgstr ""
+
+#: foods.lua:9
+msgid "MLT (Mutton, Lettuce, Tomato)"
+msgstr ""
+
+#: foods.lua:27
+msgid "Sliced Potato"
+msgstr ""
+
+#: foods.lua:41
+msgid "Potato Chips"
+msgstr ""
+
+#: foods.lua:56
+msgid "Medicine"
+msgstr ""
+
+#: foods.lua:73
+msgid "Casserole"
+msgstr ""

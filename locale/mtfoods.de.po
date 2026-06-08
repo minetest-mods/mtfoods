@@ -1,0 +1,134 @@
+# German translations for PACKAGE package.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-08 17:22-0500\n"
+"PO-Revision-Date: 2026-06-08 17:22-0500\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: desserts.lua:6
+msgid "Dandelion Milk"
+msgstr "Löwenzahnmilch"
+
+#: desserts.lua:12
+msgid "Sugar"
+msgstr "Zucker"
+
+#: desserts.lua:18
+msgid "Short Bread"
+msgstr "Mürbekeks"
+
+#: desserts.lua:24
+msgid "Pie Crust"
+msgstr "Tortenboden"
+
+#: desserts.lua:30
+msgid "Cream"
+msgstr "Sahne"
+
+#: desserts.lua:36
+msgid "Chocolate Bits"
+msgstr "Schokoladenstückchen"
+
+#: desserts.lua:42
+msgid "Cup-Cake"
+msgstr "Muffin"
+
+#: desserts.lua:48
+msgid "Strawberry Short-Cake"
+msgstr "Erdbeer-Törtchen"
+
+#: desserts.lua:251
+msgid "Cake"
+msgstr "Kuchen"
+
+#: desserts.lua:266
+msgid "Chocolate Cake"
+msgstr "Schokoladenkuchen"
+
+#: desserts.lua:282
+msgid "Carrot Cake"
+msgstr "Karottenkuchen"
+
+#: desserts.lua:299
+msgid "Apple Pie"
+msgstr "Apfelkuchen"
+
+#: desserts.lua:316
+msgid "Rhubarb Pie"
+msgstr "Rhabarberkuchen"
+
+#: desserts.lua:333
+msgid "Banana Pie"
+msgstr "Bananenkuchen"
+
+#: desserts.lua:350
+msgid "Pumpkin Pie"
+msgstr "Kürbiskuchen"
+
+#: desserts.lua:367
+msgid "Boston Cream Pie"
+msgstr "Boston Cream Pie"
+
+#: desserts.lua:385
+msgid "Cookies"
+msgstr "Kekse"
+
+#: desserts.lua:402
+msgid "Chocolate Bars"
+msgstr "Schokoladentafeln"
+
+#: desserts.lua:418
+msgid "Cupcakes"
+msgstr "Muffins"
+
+#: drinks.lua:7
+msgid "Glass Flute"
+msgstr "Sektglas"
+
+#: drinks.lua:24
+msgid "Orange Juice"
+msgstr "Orangensaft"
+
+#: drinks.lua:38
+msgid "Apple Juice"
+msgstr "Apfelsaft"
+
+#: drinks.lua:55
+msgid "Apple Cider in Bottle"
+msgstr "Apfelmost in Flasche"
+
+#: drinks.lua:79
+msgid "A Cider Rack"
+msgstr "Apfelmost-Ständer"
+
+#: foods.lua:9
+msgid "MLT (Mutton, Lettuce, Tomato)"
+msgstr "MLT (Hammelfleisch, Salat, Tomate)"
+
+#: foods.lua:27
+msgid "Sliced Potato"
+msgstr "Kartoffelscheibe"
+
+#: foods.lua:41
+msgid "Potato Chips"
+msgstr "Kartoffelchips"
+
+#: foods.lua:56
+msgid "Medicine"
+msgstr "Medizin"
+
+#: foods.lua:73
+msgid "Casserole"
+msgstr "Auflauf"
