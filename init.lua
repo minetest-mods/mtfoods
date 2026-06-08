@@ -4,7 +4,7 @@
 mtfoods = {}
 
 local orange_ing = "farming_plus:orange"
-if minetest.get_modpath("ethereal") then
+if core.get_modpath("ethereal") then
 	orange_ing = "ethereal:orange"
 end
 
@@ -26,7 +26,7 @@ mtfoods.ingredients = {
 }
 
 -- Add support for the food mod's ingredient list
-if minetest.get_modpath("food") then
+if core.get_modpath("food") then
 	mtfoods.ingredients = {
 		orange = "group:food_orange",
 		apple = "default:apple",
@@ -45,6 +45,6 @@ if minetest.get_modpath("food") then
 	}
 end
 
-dofile(minetest.get_modpath("mtfoods").."/desserts.lua")
-dofile(minetest.get_modpath("mtfoods").."/foods.lua")
-dofile(minetest.get_modpath("mtfoods").."/drinks.lua")
+dofile(core.get_modpath("mtfoods").."/desserts.lua")
+dofile(core.get_modpath("mtfoods").."/foods.lua")
+dofile(core.get_modpath("mtfoods").."/drinks.lua")
