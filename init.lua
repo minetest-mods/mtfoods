@@ -1,6 +1,6 @@
 --MTFoods-- 
 --By: Philipbenr--
---Licence: GPLv3--
+--License: GPLv3+--
 mtfoods = {}
 
 local orange_ing = "farming_plus:orange"

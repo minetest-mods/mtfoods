@@ -1,10 +1,12 @@
 -- Foods --
 
+local S = core.get_translator("mtfoods")
+
 --MLT--
 local ing = mtfoods.ingredients
 
 core.register_craftitem( "mtfoods:mlt_burger", {
-    description = "MLT (Mutton, Lettuce, Tomato)",
+    description = S("MLT (Mutton, Lettuce, Tomato)"),
     inventory_image = "mtfoods_mlt.png",
     wield_image = "mtfoods_mlt.png",
     on_use = core.item_eat(6.5),
@@ -22,7 +24,7 @@ core.register_craft({
 --Potato uses--
 
 core.register_craftitem( "mtfoods:potato_slices", {
-	description = "Sliced Potato",
+	description = S("Sliced Potato"),
 	inventory_image = "mtfoods_potato_slices.png",
 	wield_image = "mtfoods_potato_slices.png",
 	on_use = core.item_eat(2),
@@ -36,7 +38,7 @@ core.register_craft({
 })
 
 core.register_craftitem( "mtfoods:potato_chips", {
-	description = "Potato Chips",
+	description = S("Potato Chips"),
 	inventory_image = "mtfoods_potato_chips.png",
 	wield_image = "mtfoods_potato_chips.png",
 	on_use = core.item_eat(3),
@@ -51,7 +53,7 @@ core.register_craft({
 -- Medicine --
 
 core.register_craftitem( "mtfoods:medicine", {
-	description = "Medicine",
+	description = S("Medicine"),
 	inventory_image = "mtfoods_medicine.png",
 	wield_image = "mtfoods_medicine.png",
 	on_use = core.item_eat(8),
@@ -68,7 +70,7 @@ core.register_craft({
 
 core.register_node( "mtfoods:casserole",{
 	drawtype = "nodebox",
-	description = "Casserole",
+	description = S("Casserole"),
 	paramtype = "light",
 	on_use = core.item_eat(5),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},

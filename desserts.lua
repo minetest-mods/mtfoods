@@ -1,100 +1,104 @@
 -- Desserts --
 
+local S = core.get_translator("mtfoods")
+
 core.register_craftitem("mtfoods:dandelion_milk", {
-	description = "Dandelion Milk",
+	description = S("Dandelion Milk"),
 	inventory_image = "mtfoods_milk.png",
 	on_use = core.item_eat(1),
 })
 
 core.register_craftitem("mtfoods:sugar", {
-	description = "Sugar",
+	description = S("Sugar"),
 	inventory_image = "mtfoods_sugar.png",
 	on_use = core.item_eat(1),
 })
 
 core.register_craftitem("mtfoods:short_bread", {
-	description = "Short Bread",
+	description = S("Short Bread"),
 	inventory_image = "mtfoods_short_bread.png",
 	on_use = core.item_eat(3.5),
 })
 
 core.register_craftitem("mtfoods:pie_crust", {
-	description = "Pie Crust",
+	description = S("Pie Crust"),
 	inventory_image = "mtfoods_pie_crust.png",
 	on_use = core.item_eat(3.5),
 })
 
 core.register_craftitem("mtfoods:cream", {
-	description = "Cream",
+	description = S("Cream"),
 	inventory_image = "mtfoods_cream.png",
 	on_use = core.item_eat(1.5),
 })
 
 core.register_craftitem("mtfoods:chocolate", {
-	description = "Chocolate Bits",
+	description = S("Chocolate Bits"),
 	inventory_image = "mtfoods_chocolate_bit.png",
 	on_use = core.item_eat(2.5),
 })
 
 core.register_craftitem("mtfoods:cupcake", {
-	description = "Cup-Cake",
+	description = S("Cup-Cake"),
 	inventory_image = "mtfoods_cupcake.png",
 	on_use = core.item_eat(3.5),
 })
 
 core.register_craftitem("mtfoods:strawberry_shortcake", {
-	description = "Strawberry Short-Cake",
+	description = S("Strawberry Short-Cake"),
 	inventory_image = "mtfoods_berry_shortcake.png",
 	on_use = core.item_eat(3.5),
 })
 
---core.register_craftitem("mtfoods:cake", {
---	description = "Cake",
---	inventory_image = "mtfoods_simple_cake.png",
---	on_use = core.item_eat(3),
---})
---
---core.register_craftitem("mtfoods:chocolate_cake", {
---	description = "Chocolate Cake",
---	inventory_image = "mtfoods_chocolate_cake.png",
---	on_use = core.item_eat(5),
---})
---
---core.register_craftitem("mtfoods:carrot_cake", {
---	description = "Carrot Cake",
---	inventory_image = "mtfoods_carrot_cake.png",
---	on_use = core.item_eat(4),
---})
+--[[
+core.register_craftitem("mtfoods:cake", {
+	description = S("Cake"),
+	inventory_image = "mtfoods_simple_cake.png",
+	on_use = core.item_eat(3),
+})
 
---core.register_craftitem("mtfoods:apple_pie", {
---	description = "Apple Pie",
---	inventory_image = "mtfoods_apple_pie.png",
---	on_use = core.item_eat(5),
---})
+core.register_craftitem("mtfoods:chocolate_cake", {
+	description = S("Chocolate Cake"),
+	inventory_image = "mtfoods_chocolate_cake.png",
+	on_use = core.item_eat(5),
+})
 
---core.register_craftitem("mtfoods:rhubarb_pie", {
---	description = "Rhubarb Pie",
---	inventory_image = "mtfoods_rhubarb_pie.png",
---	on_use = core.item_eat(5),
---})
+core.register_craftitem("mtfoods:carrot_cake", {
+	description = S("Carrot Cake"),
+	inventory_image = "mtfoods_carrot_cake.png",
+	on_use = core.item_eat(4),
+})
 
---core.register_craftitem("mtfoods:banana_pie", {
---	description = "Banana Cream Pie",
---	inventory_image = "mtfoods_banana_pie.png",
---	on_use = core.item_eat(5),
---})
+core.register_craftitem("mtfoods:apple_pie", {
+	description = S("Apple Pie"),
+	inventory_image = "mtfoods_apple_pie.png",
+	on_use = core.item_eat(5),
+})
 
---core.register_craftitem("mtfoods:pumpkin_pie", {
---	description = "Pumpkin Pie",
---	inventory_image = "mtfoods_pumpkin_pie.png",
---	on_use = core.item_eat(5),
---})
+core.register_craftitem("mtfoods:rhubarb_pie", {
+	description = S("Rhubarb Pie"),
+	inventory_image = "mtfoods_rhubarb_pie.png",
+	on_use = core.item_eat(5),
+})
 
---core.register_craftitem("mtfoods:cookies", {
---	description = "Cookies",
---	inventory_image = "mtfoods_cookies.png",
---	on_use = core.item_eat(3),
---})
+core.register_craftitem("mtfoods:banana_pie", {
+	description = S("Banana Cream Pie"),
+	inventory_image = "mtfoods_banana_pie.png",
+	on_use = core.item_eat(5),
+})
+
+core.register_craftitem("mtfoods:pumpkin_pie", {
+	description = S("Pumpkin Pie"),
+	inventory_image = "mtfoods_pumpkin_pie.png",
+	on_use = core.item_eat(5),
+})
+
+core.register_craftitem("mtfoods:cookies", {
+	description = S("Cookies"),
+	inventory_image = "mtfoods_cookies.png",
+	on_use = core.item_eat(3),
+})
+]]
 
 -- Crafting --
 local ing = mtfoods.ingredients
@@ -244,7 +248,7 @@ core.register_craft({
 core.register_node("mtfoods:cake",{
 	drawtype="nodebox",
 	paramtype = "light",
-	description = "Cake",
+	description = S("Cake"),
 	on_use = core.item_eat(3),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
 	tiles = {"mtfoods_cake_top.png","mtfoods_cake_bottom.png","mtfoods_cake_side.png","mtfoods_cake_side.png","mtfoods_cake_side.png","mtfoods_cake_side.png"},
@@ -259,7 +263,7 @@ core.register_node("mtfoods:cake",{
 
 core.register_node("mtfoods:chocolate_cake",{
 	drawtype="nodebox",
-	description = "Chocolate Cake",
+	description = S("Chocolate Cake"),
 	paramtype = "light",
 	on_use = core.item_eat(5),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
@@ -275,7 +279,7 @@ core.register_node("mtfoods:chocolate_cake",{
 
 core.register_node("mtfoods:carrot_cake",{
 	drawtype = "nodebox",
-	description = "Carrot Cake",
+	description = S("Carrot Cake"),
 	on_use = core.item_eat(4),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
 	tiles = {"mtfoods_cake_atop.png","mtfoods_cake_bottom.png","mtfoods_cake_aside.png","mtfoods_cake_aside.png","mtfoods_cake_aside.png","mtfoods_cake_aside.png"},
@@ -292,7 +296,7 @@ core.register_node("mtfoods:carrot_cake",{
 core.register_node("mtfoods:apple_pie",{
 	drawtype = "nodebox",
 	paramtype = "light",
-	description = "Apple Pie",
+	description = S("Apple Pie"),
 	on_use = core.item_eat(5),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
 	tiles = {"mtfoods_apie_top.png","mtfoods_pie_bottom.png","mtfoods_pie_side.png","mtfoods_pie_side.png","mtfoods_pie_side.png","mtfoods_pie_side.png"},
@@ -309,7 +313,7 @@ core.register_node("mtfoods:apple_pie",{
 core.register_node("mtfoods:rhubarb_pie",{
 	drawtype="nodebox",
 	paramtype = "light",
-	description = "Rhubarb Pie",
+	description = S("Rhubarb Pie"),
 	on_use = core.item_eat(5),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
 	tiles = {"mtfoods_rpie_top.png","mtfoods_pie_bottom.png","mtfoods_pie_side.png","mtfoods_pie_side.png","mtfoods_pie_side.png","mtfoods_pie_side.png"},
@@ -326,7 +330,7 @@ core.register_node("mtfoods:rhubarb_pie",{
 core.register_node("mtfoods:banana_pie",{
 	drawtype="nodebox",
 	paramtype = "light",
-	description = "Banana Pie",
+	description = S("Banana Pie"),
 	on_use = core.item_eat(5),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
 	tiles = {"mtfoods_bpie_top.png","mtfoods_pie_bottom.png","mtfoods_pie_side.png","mtfoods_pie_side.png","mtfoods_pie_side.png","mtfoods_pie_side.png"},
@@ -343,7 +347,7 @@ core.register_node("mtfoods:banana_pie",{
 core.register_node("mtfoods:pumpkin_pie",{
 	drawtype="nodebox",
 	paramtype = "light",
-	description = "Pumpkin Pie",
+	description = S("Pumpkin Pie"),
 	on_use = core.item_eat(5),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
 	tiles = {"mtfoods_ppie_top.png","mtfoods_pie_bottom.png","mtfoods_pie_side.png","mtfoods_pie_side.png","mtfoods_pie_side.png","mtfoods_pie_side.png"},
@@ -360,7 +364,7 @@ core.register_node("mtfoods:pumpkin_pie",{
 core.register_node("mtfoods:boston_cream",{
 	drawtype="nodebox",
 	paramtype = "light",
-	description = "Boston Cream Pie",
+	description = S("Boston Cream Pie"),
 	on_use = core.item_eat(5),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
 	tiles = {"mtfoods_cake_cbottom.png","mtfoods_pie_bottom.png","mtfoods_bcpie_side.png","mtfoods_bcpie_side.png","mtfoods_bcpie_side.png","mtfoods_bcpie_side.png"},
@@ -378,7 +382,7 @@ core.register_node("mtfoods:boston_cream",{
 core.register_node("mtfoods:cookies",{
 	drawtype = "nodebox",
 	paramtype = "light",
-	description = "Cookies",
+	description = S("Cookies"),
 	on_use = core.item_eat(3),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
 	tiles = {"mtfoods_cookies.png","mtfoods_cookies.png","mtfoods_cookies.png","mtfoods_cookies.png","mtfoods_cookies.png","mtfoods_cookies.png"},
@@ -395,7 +399,7 @@ core.register_node("mtfoods:cookies",{
 core.register_node("mtfoods:chocolate",{
 	drawtype = "nodebox",
 	paramtype = "light",
-	description = "Chocolate Bars",
+	description = S("Chocolate Bars"),
 	on_use = core.item_eat(2),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
 	tiles = {"mtfoods_chocolate.png","mtfoods_chocolate.png","mtfoods_chocolate.png","mtfoods_chocolate.png","mtfoods_chocolate.png","mtfoods_chocolate.png"},
@@ -411,7 +415,7 @@ core.register_node("mtfoods:chocolate",{
 core.register_node("mtfoods:cupcake",{
 	drawtype = "nodebox",
 	paramtype = "light",
-	description = "Cupcakes",
+	description = S("Cupcakes"),
 	on_use = core.item_eat(3.5),
 	groups = {cracky=1,choppy=1,crumbly=1,oddly_breakable_by_hand=1},
 	tiles = {"mtfoods_cupcake_top.png","mtfoods_cake_bottom.png","mtfoods_cupcake_side.png","mtfoods_cupcake_side.png","mtfoods_cupcake_side.png","mtfoods_cupcake_side.png"},
@@ -425,4 +429,4 @@ core.register_node("mtfoods:cupcake",{
 	}
 })
 
--- Finis --
+-- Finish --

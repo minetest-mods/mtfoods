@@ -1,8 +1,10 @@
 local ing = mtfoods.ingredients
 
+local S = core.get_translator("mtfoods")
+
 -- Flute Glass --
 core.register_craftitem("mtfoods:glass_flute", {
-	description = "Glass Flute",
+	description = S("Glass Flute"),
 	inventory_image = "mtfoods_flute.png",
 })
 
@@ -19,7 +21,7 @@ core.register_craft({
 
 --orange--
 core.register_craftitem("mtfoods:orange_juice", {
-	description = "Orange Juice",
+	description = S("Orange Juice"),
 	inventory_image = "mtfoods_orange_juice.png",
 	on_use = core.item_eat(0.5),
 })
@@ -33,7 +35,7 @@ core.register_craft({
 --apple--
 
 core.register_craftitem("mtfoods:apple_juice", {
-	description = "Apple Juice",
+	description = S("Apple Juice"),
 	inventory_image = "mtfoods_apple_juice.png",
 	on_use = core.item_eat(0.5),
 })
@@ -50,7 +52,7 @@ core.register_node("mtfoods:apple_cider", {
 	drawtype = 'plantlike',
 	paramtype = 'light',
 	tiles = {"mtfoods_apple_cider.png"},
-	description = "Apple Cider in Bottle",
+	description = S("Apple Cider in Bottle"),
 	inventory_image = "mtfoods_apple_cider.png",
 	wield_image = "mtfoods_apple_cider.png",
 	on_use = core.item_eat(1),
@@ -74,7 +76,7 @@ core.register_node("mtfoods:cider_rack", {
 	paramtype = 'light',
 	paramtype2 = "facedir",
 	tiles = {"mtfoods_ciderrack_other_sides.png", "mtfoods_ciderrack_other_sides.png", "mtfoods_ciderrack_other_sides.png", "mtfoods_ciderrack_other_sides.png", "mtfoods_ciderrack_other_sides.png", "mtfoods_ciderrack.png",},
-	description = "A Cider Rack",
+	description = S("A Cider Rack"),
 	inventory_image = "mtfoods_ciderrack.png",
 	wield_image = "mtfoods_ciderrack.png",
 	groups = {oddly_breakable_by_hand=3, choppy=3},
