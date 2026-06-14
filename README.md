@@ -1,15 +1,13 @@
 MTfoods
 -------
 
-This is a mod for Minetest that gives the player a chance to make some nice 
+This is a mod for Luanti/Minetest that gives the player a chance to make some nice 
 foods like chocolate cakes, a MLT, which is a minetest burger, healing 
 medicine, or a simple apple pie.
 
 ---
 ## Install Instructions
-1. Download the mod
-2. Rename the folder to mtfoods.
-3. Place in `~/.minetest/mods/`
+Please read [installing mods](https://docs.luanti.org/for-players/installing-mods/).
 
 ---
 
